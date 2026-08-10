@@ -181,6 +181,14 @@ public class ExampleServiceImpl implements ExampleService {
 - Business validation stays in service.
 - Reuse existing error enums and `BaseError` instead of inventing ad hoc exception strings.
 
+### Method parameters
+
+- Avoid long parameter lists.
+- Methods should generally have no more than 3 parameters.
+- When an operation requires more than 3 related parameters, group them into a dedicated Request DTO, Command, Query, or parameter object according to the layer and purpose.
+- Parameters that together represent one business concept may be grouped even when there are only 3.
+- Do not introduce wrapper objects solely to reduce the parameter count when doing so would make the code less clear.
+
 ## Mapper style
 
 ### Local module conventions
