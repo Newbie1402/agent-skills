@@ -28,6 +28,29 @@ npx skills add https://github.com/leonxlnx/taste-skill --skill full-output-enfor
 ```bash
 npx impeccable install
 ```
+promt need to use with skill impeccable:
+```bash
+1. Primary users:
+   Primarily internal staff and managers/admins. This is an internal business application used for day-to-day operations, so prioritize efficiency, clarity, information density, and low learning curve over flashy presentation.
+
+2. Product position:
+   A unified internal office suite for business operations. It may include travel/airline-related workflows, administration, accounting, reporting, and other internal operational modules, but it should feel like one consistent office/back-office product rather than a marketing website.
+
+3. Future Impeccable build default:
+   code-first.
+
+This is an existing production application with an established React codebase. Prefer extending and reusing the existing design system, components, patterns, spacing, typography, and interaction conventions before introducing new visual concepts.
+
+For new UI:
+
+- prioritize practical UX and information density
+- keep tables, forms, filters, dialogs, and workflows easy to scan
+- avoid AI-slop aesthetics
+- avoid excessive gradients, oversized typography, decorative cards, and unnecessary animations
+- maintain visual consistency with existing screens
+- prioritize responsive behavior and accessibility
+- keep implementation maintainable and production-oriented
+```
 
 Old version not use
 ```bash
