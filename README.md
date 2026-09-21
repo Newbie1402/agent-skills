@@ -24,6 +24,12 @@ npx skills add https://github.com/leonxlnx/taste-skill --skill full-output-enfor
 ```
 ### With Front-end 
 
+
+```bash
+npx impeccable install
+```
+
+Old version not use
 ```bash
 npx skills add https://github.com/Leonxlnx/taste-skill \
   --skill "gpt-taste"
